@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  gap: 100px;
+}
+
+DIV.content {
+  margin: 25px 0 0 25px
+}
+
+DIV.legend {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+DIV.legend-item {
+  margin: 10px 10px 0 10px;
+}
+
+DIV.legend-color {
+  display: inline-block;
+  width: 16px;
+}
+
+DIV.friend {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+
+DIV.friend button {
+  width: 70px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+BUTTON.friend {
+  background-color: rgb(141, 219, 253);
+  border-color: rgb(39, 111, 142);
+}
+
+BUTTON.unfriend {
+  background-color: rgb(147, 249, 166);
+  border-color: rgb(36, 124, 52);
+}
+
+svg {
+  margin-top: 80px;
+}
